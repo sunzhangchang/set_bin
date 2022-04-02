@@ -21,3 +21,10 @@ sublime text命令行
 
 即可用 `sublime_text "file"` 运行 sublime text 编辑/查看文件
 
+### 构建
+
+g++ (tdm-gcc, mingw)
+
+#### 标准
+
+C++ 17
