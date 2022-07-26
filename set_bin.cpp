@@ -105,7 +105,7 @@ if "%%params:~-1%%"==" " set "params=%%params:~0,-1%%" & goto intercept_right
 quote(path.string()).c_str()
 );
 
-    cout << str << endl;
+    // cout << str << endl;
 
     fout << str << endl;
 
@@ -168,7 +168,7 @@ bool write_cfg(std::filesystem::path path, const std::map<string, string> & cfg)
         return false;
     }
     for (const auto & it : cfg) {
-        cout << it.first << '=' << it.second << endl;
+        // cout << it.first << '=' << it.second << endl;
         fout << it.first << "=" << it.second << endl;
     }
     return true;
